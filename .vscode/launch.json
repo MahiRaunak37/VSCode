@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "J0001HelloWorld",
+            "request": "launch",
+            "mainClass": "J0001HelloWorld",
+            "projectName": "VSCode_2c1e420f"
+        },
+        {
+            "type": "java",
+            "name": "J001Test",
+            "request": "launch",
+            "mainClass": "J001Test",
+            "projectName": "VSCode_2c1e420f"
+        },
+        {
+            "type": "java",
+            "name": "J3500map",
+            "request": "launch",
+            "mainClass": "J3500map",
+            "projectName": "VSCode_2c1e420f"
+        },
+        {
+            "type": "java",
+            "name": "J3501CondtionCheck",
+            "request": "launch",
+            "mainClass": "J3501CondtionCheck",
+            "projectName": "VSCode_2c1e420f"
+        },
+        {
+            "type": "java",
+            "name": "J3503ParamterValidUtil",
+            "request": "launch",
+            "mainClass": "J3503ParamterValidUtil",
+            "projectName": "VSCode_2c1e420f"
+        },
+        {
+            "type": "java",
+            "name": "J3504SumOfIntegerInString",
+            "request": "launch",
+            "mainClass": "J3504SumOfIntegerInString",
+            "projectName": "VSCode_2c1e420f"
+        }
+    ]
+}
