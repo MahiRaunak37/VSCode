@@ -35,6 +35,9 @@ public class J0001StartingProgram {
 
             List<String> files = findFiles(Paths.get("P:\\\\VSCode\\\\JavaCode"), "java");
             System.out.println("Total Java Files:- "+files.size());
+            int fileSize = files.size();
+             String name = String.format("%04d", fileSize);
+            System.out.println("Java Files Number:- "+name);
             if(files.size()<3000){
                 nameGeneration(files.size());
             }
