@@ -8,6 +8,6 @@ public class J0005ArrayTest {
     }
     public static void main(String[] args) {
         J0005ArrayTest j0005ArrayTest = new J0005ArrayTest();
-
+        System.out.println("Inside the main method");
     }
 }
