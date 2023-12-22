@@ -1,9 +1,13 @@
-//Using namespace in the cpp
-#include <iostream>			//include header file 
-using namespace std;			//using std from iostream header
+// Using namespace in the cpp
+#include <iostream> //include header file
+#include <string>
+using namespace std; // using std from iostream header
 
 int main()
 {
- cout<<"using namespace std"<<endl;
- return 0;
+    string fullName;
+    cout << "Type your full name: ";
+    getline (cin, fullName);
+    cout << "Your name is: " << fullName;
+    return 0;
 }
